@@ -6,17 +6,15 @@ import itemController from '../../controllers/itemController.js';
 export class Item extends React.Component{
     constructor(){
         super();
-
+        console.log("T");
         this.state = {
             items : itemController.getAllItem()
         };
-console.log("ItemListing");
     }
-    
 
     render(){
         return(
-            <div>
+            <div>test
                   <ItemListing itemListingProp={this.state.items}/>  
             </div>
         )
