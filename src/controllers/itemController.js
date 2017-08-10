@@ -1,4 +1,4 @@
-import itemRepository from "./repository/items.js";
+import itemRepository from "../repository/items.js";
 
 let items = itemRepository.items;
 
